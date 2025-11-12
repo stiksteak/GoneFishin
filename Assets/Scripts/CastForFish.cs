@@ -10,6 +10,8 @@ public class FishingCast : MonoBehaviour
     public bool IsCasting = false;
     public object rod;
     InputAction ClickAction;
+    public object hook;
+    public object HookDistance;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,7 +37,7 @@ public class FishingCast : MonoBehaviour
 
         if (IsCasting)
         {
-
+            //transform.Translate(x,y,(z-1));//
         }
 
 
